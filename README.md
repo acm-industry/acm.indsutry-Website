@@ -22,7 +22,7 @@ graph TD;
 
 ```mermaid
 graph TD;
-    HomePage-->About-->()
+    HomePage-->About-->(What is GauchoAI?);
     HomePage-->Services-->(What do we do for companies?);
     HomePage-->Teams;
     Teams-->Learn(Team specific info for learn, maybe event calendar of upcoming learn events, etc);
