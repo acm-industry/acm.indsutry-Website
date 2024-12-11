@@ -12,10 +12,10 @@ This GitHub Repository is the code for the GauchoAI website found [here]().
 
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    GauchoAI-->frontend (Next.js);
+    GauchoAI-->backend (FastAPI);
+    frontend (Next.js)-->src-->page.tsx;
+    backend (FastAPI)-->main.py;
 ```
 
 ## Website Organization:
