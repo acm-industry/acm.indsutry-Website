@@ -1020,6 +1020,11 @@ a {
   margin-right: 0;
 }
 
+.code-embed {
+  width: 65%;
+  height: 160%;
+}
+
 @media screen and (max-width: 991px) {
   h2 {
     font-size: 34px;
