@@ -1,0 +1,45 @@
+name: Process HTML Files
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  process_and_release:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - uses: actions/create-github-app-token@v1
+      id: app-token
+      with:
+        app-id: ${{ vars.APP_ID }}
+        private-key: ${{ secrets.PRIVATE_KEY }}
+
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        ref: main
+        fetch-depth: 0
+        token: ${{ steps.app-token.outputs.token }}
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Process HTML files
+      run: |
+        for file in $(find . -name "*.html"); do
+          python urlrewrite.py "$file"
+        done
+
+    - name: Commit and push changes
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git checkout -b release
+        git add .
+        git commit -m "Update HTML files by GitHub Action" || echo "No changes to commit"
+        git push origin release --force
