@@ -953,8 +953,11 @@ a {
   background-color: #febc11;
   background-clip: border-box;
   border-left-color: #111517;
+  border-right: 5px solid #000;
   max-width: 350px;
   margin-bottom: 0;
+  padding-left: 18px;
+  padding-right: 18px;
   font-family: Droid Sans, sans-serif;
   font-size: 25px;
 }
