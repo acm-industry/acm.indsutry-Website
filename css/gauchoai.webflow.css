@@ -1,4 +1,5 @@
 :root {
+  --black: #111517;
   --white: white;
   --navy: #003660;
   --gold: #febc11;
@@ -11,7 +12,6 @@
   --lmist: #dae6e6;
   --lgray: #dce1e5;
   --llgray: #eef0f2;
-  --black: #111517;
   --clay: #dcd6cc;
   --lclay: #c9bf9d;
   --lsandstone: #edeadf;
@@ -155,11 +155,12 @@ a {
 .section.wide.img {
   color: #eef0f2;
   background-color: #dce1e5;
-  padding-bottom: 0;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 .section.wide.purple {
-  background-color: #09847a;
+  background-color: #047c91;
   padding-top: 7vh;
   padding-bottom: 8vh;
 }
@@ -253,7 +254,8 @@ a {
   color: #111517;
   margin-top: 10px;
   margin-bottom: 0;
-  font-family: Oswald, sans-serif;
+  padding-top: 5vh;
+  font-family: Gothic A1, sans-serif;
   font-size: 10vh;
   font-weight: 400;
   line-height: 9vh;
@@ -312,9 +314,9 @@ a {
 }
 
 .button {
-  color: #111517;
+  color: #fff;
   text-align: center;
-  background-color: #9cbebe;
+  background-color: #6d7d33;
   border-radius: 3px;
   width: 50%;
   margin-right: 0;
@@ -339,8 +341,8 @@ a {
 }
 
 .button.contact {
-  color: #111517;
-  background-color: #fff;
+  color: #fff;
+  background-color: #ef5645;
   margin-left: 10px;
   box-shadow: inset 0 0 0 2px #fff3;
 }
@@ -1311,6 +1313,48 @@ a {
 
 .flex-block-8 {
   flex-flow: column;
+}
+
+.button-4 {
+  background-color: #003660;
+  font-family: Gothic A1, sans-serif;
+}
+
+.howitworks {
+  max-width: 25vw;
+}
+
+.paragraph-6 {
+  max-width: 20vw;
+}
+
+.heading-9 {
+  color: #111517;
+  text-align: left;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.howitworks-container {
+  grid-column-gap: 3vw;
+  grid-row-gap: 3vw;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.paragraph-7 {
+  color: var(--black);
+  text-align: left;
+}
+
+.paragraph-8, .paragraph-9 {
+  color: var(--black);
+}
+
+.image-8, .right-arrow-circle {
+  height: 5vh;
 }
 
 @media screen and (max-width: 991px) {
