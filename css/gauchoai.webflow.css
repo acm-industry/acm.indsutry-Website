@@ -6,10 +6,10 @@
   --mist: #9cbebe;
   --seagreen: #09847a;
   --black: #111517;
+  --lmist: #dae6e6;
   --moss: #6d7d33;
   --coral: #ef5645;
   --dcoral: #c43424;
-  --lmist: #dae6e6;
   --lgray: #dce1e5;
   --llgray: #eef0f2;
   --clay: #dcd6cc;
@@ -1515,7 +1515,7 @@ a {
   align-items: flex-start;
   width: 100%;
   max-width: 1080px;
-  margin-bottom: 10%;
+  margin-bottom: 0%;
   padding-bottom: 0;
   display: flex;
   position: relative;
@@ -1609,6 +1609,7 @@ a {
   align-items: center;
   min-height: 80vh;
   margin-top: -1px;
+  margin-bottom: 0;
   display: flex;
   position: relative;
 }
@@ -1709,6 +1710,10 @@ a {
   grid-row-gap: 2vw;
   justify-content: center;
   align-items: center;
+}
+
+.section-4 {
+  background-color: var(--lmist);
 }
 
 @media screen and (max-width: 991px) {
