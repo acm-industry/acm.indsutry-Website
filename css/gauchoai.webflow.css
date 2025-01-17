@@ -1,8 +1,7 @@
 :root {
-  --black: #111517;
-  --white: white;
   --navy: #003660;
   --gold: #febc11;
+  --white: white;
   --aqua: #047c91;
   --moss: #6d7d33;
   --seagreen: #09847a;
@@ -12,6 +11,7 @@
   --lmist: #dae6e6;
   --lgray: #dce1e5;
   --llgray: #eef0f2;
+  --black: #111517;
   --clay: #dcd6cc;
   --lclay: #c9bf9d;
   --lsandstone: #edeadf;
@@ -153,10 +153,10 @@ a {
 }
 
 .section.wide.img {
+  background-color: var(--navy);
   color: #eef0f2;
-  background-color: #dce1e5;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 
 .section.wide.purple {
@@ -1064,7 +1064,7 @@ a {
 }
 
 .heading-4 {
-  color: #111517;
+  color: var(--gold);
 }
 
 .subheading {
@@ -1317,11 +1317,12 @@ a {
 
 .button-4 {
   background-color: #003660;
+  margin-top: 3vh;
   font-family: Gothic A1, sans-serif;
 }
 
 .howitworks {
-  max-width: 25vw;
+  max-width: 75vw;
 }
 
 .paragraph-6 {
@@ -1329,7 +1330,7 @@ a {
 }
 
 .heading-9 {
-  color: #111517;
+  color: var(--gold);
   text-align: left;
   margin-top: 1vh;
   margin-bottom: 1vh;
@@ -1338,23 +1339,42 @@ a {
 .howitworks-container {
   grid-column-gap: 3vw;
   grid-row-gap: 3vw;
+  flex-flow: column;
   justify-content: space-between;
-  align-items: center;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
+  align-items: flex-start;
+  margin: 5vh 2vw;
 }
 
 .paragraph-7 {
-  color: var(--black);
+  color: var(--white);
   text-align: left;
 }
 
 .paragraph-8, .paragraph-9 {
-  color: var(--black);
+  color: var(--white);
 }
 
-.image-8, .right-arrow-circle {
+.image-8 {
   height: 5vh;
+}
+
+.right-arrow-circle {
+  -webkit-text-fill-color: inherit;
+  background-clip: border-box;
+  height: 5vh;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.code-embed-4 {
+  flex: 0 auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 50px;
+}
+
+.code-embed-4.right-arrow-embed {
+  display: none;
 }
 
 @media screen and (max-width: 991px) {
@@ -1581,6 +1601,10 @@ a {
   .hero-content-2 {
     margin-bottom: 5vh;
   }
+
+  .code-embed-4.right-arrow-embed {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1695,6 +1719,10 @@ a {
   .sub-heading {
     font-size: 42px;
     line-height: 56px;
+  }
+
+  .code-embed-4.right-arrow-embed {
+    display: none;
   }
 }
 
