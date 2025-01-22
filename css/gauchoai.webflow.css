@@ -444,7 +444,7 @@ a {
 
 .home-mainpara {
   color: #111517;
-  width: 90%;
+  width: 95%;
   margin-top: 2vh;
   margin-bottom: 1vh;
   font-family: Gothic A1, sans-serif;
@@ -596,7 +596,7 @@ a {
 
 .home-main-flex {
   flex-flow: column;
-  width: 95%;
+  width: 85%;
 }
 
 .navybtn {
