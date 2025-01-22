@@ -1301,9 +1301,7 @@ a {
     justify-content: center;
     align-items: center;
     margin-top: 0;
-    padding-top: 0;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding: 0 5vw 10vh;
   }
 
   .code-embed-3 {
@@ -1851,6 +1849,7 @@ a {
   .hero-join {
     flex-flow: wrap;
     margin-top: 2vh;
+    padding-top: 10vh;
     padding-left: 4vw;
     padding-right: 4vw;
   }
@@ -1973,7 +1972,7 @@ a {
     align-items: center;
     width: auto;
     height: 100vh;
-    padding-top: 6vh;
+    padding-top: 0;
     padding-bottom: 3vh;
   }
 
