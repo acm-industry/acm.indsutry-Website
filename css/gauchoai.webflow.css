@@ -350,8 +350,8 @@ a {
   margin-left: auto;
   margin-right: auto;
   padding-top: 20vh;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 8vw;
+  padding-right: 8vw;
   display: flex;
   position: relative;
 }
@@ -472,7 +472,7 @@ a {
   flex-flow: row;
   justify-content: center;
   align-items: center;
-  padding: 15px 10px 15px 0;
+  padding: 15px 0;
   overflow: visible;
 }
 
@@ -550,8 +550,11 @@ a {
 
 .code-embed-3 {
   order: 1;
+  justify-content: center;
+  align-items: center;
   width: 130%;
-  height: 95%;
+  height: 120%;
+  margin-top: 20vh;
   display: inline-flex;
 }
 
@@ -560,7 +563,7 @@ a {
 }
 
 .div-block-13 {
-  width: 110%;
+  width: 120%;
   height: 110%;
   display: block;
 }
