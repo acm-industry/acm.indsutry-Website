@@ -183,9 +183,9 @@ a {
 
 .whatwedo {
   color: #111517;
-  margin-top: 10px;
+  margin-top: 10vh;
   margin-bottom: 0;
-  padding-top: 5vh;
+  padding-top: 0;
   font-family: Gothic A1, sans-serif;
   font-size: 10vh;
   font-weight: 400;
@@ -267,6 +267,7 @@ a {
   text-align: center;
   flex: 0 auto;
   max-width: 70%;
+  margin-bottom: 5vh;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -349,8 +350,8 @@ a {
   justify-content: space-around;
   align-items: center;
   width: 90vw;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
   padding-left: 10vw;
   padding-right: 10vw;
   display: flex;
@@ -496,8 +497,8 @@ a {
 
 .home-bridge-heading {
   color: var(--gold);
-  margin-top: 8vh;
-  margin-bottom: 1vh;
+  margin-top: 5vh;
+  margin-bottom: 0;
 }
 
 .ready-to-get-started, .featurepara {
