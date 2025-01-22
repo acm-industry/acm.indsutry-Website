@@ -338,8 +338,8 @@ a {
   margin-left: auto;
   margin-right: auto;
   padding-top: 20vh;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 8vw;
+  padding-right: 8vw;
   display: flex;
   position: relative;
 }
@@ -433,11 +433,12 @@ a {
   background-clip: border-box;
   border-left-color: #111517;
   border-right: 5px solid #000;
-  width: 50%;
+  width: auto;
   margin-bottom: 0;
-  padding: 2px 5px;
+  padding: .5vh 1vw;
   font-family: Gothic A1, sans-serif;
   font-size: 120%;
+  line-height: 24px;
   display: block;
 }
 
@@ -595,6 +596,7 @@ a {
 
 .home-main-flex {
   flex-flow: column;
+  width: 95%;
 }
 
 .navybtn {
