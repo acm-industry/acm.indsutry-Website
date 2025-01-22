@@ -6,8 +6,8 @@ This GitHub Repository is the code for the GauchoAI website found [here](gauchoa
 
 ```mermaid
 graph TD;
-    Webflow(Design)-->GitHub(Hosting);
-    GitHub(Hosting)-->gauchoai.org;
+    A["Webflow (Design)"]-->B["GitHub (Hosting)"];
+    B["GitHub (Hosting)"]-->gauchoai.org;
 ```
 
 ## Website Organization:
