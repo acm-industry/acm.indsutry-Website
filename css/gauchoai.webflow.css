@@ -1052,6 +1052,10 @@ a {
   color: var(--navy);
 }
 
+.flex-consulting-services {
+  width: 100%;
+}
+
 .section-service {
   background-color: #fff;
   flex-direction: column;
@@ -1190,6 +1194,10 @@ a {
   padding-top: 2vh;
   padding-bottom: 5vh;
   display: flex;
+}
+
+.flex-block-2 {
+  width: 100%;
 }
 
 @media screen and (max-width: 991px) {
