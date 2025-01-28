@@ -118,6 +118,7 @@ a {
   align-items: center;
   width: 100%;
   height: auto;
+  margin-bottom: 3vh;
   display: flex;
 }
 
@@ -197,8 +198,8 @@ a {
   flex: none;
   width: 50vw;
   max-width: 450px;
-  padding-left: 4vw;
-  padding-right: 4vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 .feature-content.icons {
@@ -375,7 +376,7 @@ a {
   border: 1px #000;
   justify-content: center;
   align-items: center;
-  width: 50vw;
+  width: 40vw;
   display: flex;
 }
 
@@ -1172,19 +1173,7 @@ a {
   display: flex;
 }
 
-.section-get-started {
-  background-color: var(--047c91);
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  padding-top: 2vh;
-  padding-bottom: 10vh;
-  display: flex;
-}
-
-.section-get-started-services {
+.section-get-started, .section-get-started-services {
   background-color: var(--047c91);
   flex-direction: column;
   justify-content: center;
