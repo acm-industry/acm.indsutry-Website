@@ -1,6 +1,6 @@
 # GauchoAI
 
-This GitHub Repository is the code for the GauchoAI website found [here](gauchoai.org).
+This GitHub Repository is the code for the GauchoAI website found [here](https://gauchoai.org).
 
 ## Repository Organization:
 
