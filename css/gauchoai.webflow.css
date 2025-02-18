@@ -1241,6 +1241,8 @@ a {
 .margin-bottom-24px {
   color: var(--black);
   margin-bottom: 0;
+  font-size: 1vw;
+  line-height: 180%;
 }
 
 .testimonial-main-heading {
@@ -1401,9 +1403,9 @@ a {
   margin-top: 0;
   margin-bottom: 0;
   font-family: Gothic A1, sans-serif;
-  font-size: 20px;
+  font-size: 1.2vw;
   font-weight: 500;
-  line-height: 38px;
+  line-height: 200%;
 }
 
 .navybtnportfolio {
