@@ -1420,6 +1420,14 @@ a {
   transition: all .2s;
 }
 
+.link-block {
+  margin-top: 1vh;
+}
+
+.link-block.w--current {
+  margin-top: 3vh;
+}
+
 @media screen and (max-width: 991px) {
   h2 {
     font-size: 34px;
