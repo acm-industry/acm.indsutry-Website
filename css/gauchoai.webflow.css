@@ -265,12 +265,17 @@ a {
 }
 
 .wrap {
+  grid-column-gap: 3vh;
+  grid-row-gap: 3vh;
   text-align: center;
+  flex-flow: column;
   flex: 0 auto;
   max-width: 70%;
-  margin-bottom: 5vh;
+  margin-top: 3vh;
+  margin-bottom: 4vh;
   padding-top: 0;
   padding-bottom: 0;
+  display: flex;
 }
 
 .whatwedoimg {
@@ -405,8 +410,8 @@ a {
 }
 
 .footer-list {
-  padding-top: 29px;
-  padding-bottom: 29px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .nav-logo-wrap {
@@ -1429,7 +1434,7 @@ a {
 }
 
 .link-block.w--current {
-  margin-top: 3vh;
+  margin-top: 0;
 }
 
 .portfoliocardwrapper-copy {
