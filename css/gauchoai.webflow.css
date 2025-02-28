@@ -1258,7 +1258,7 @@ a {
   flex-direction: column;
   justify-content: space-between;
   margin-top: 1vh;
-  padding: 3vh 2vw;
+  padding: 2vh 1vw;
   display: flex;
 }
 
@@ -1269,6 +1269,7 @@ a {
 
 .testimonial-image {
   object-fit: cover;
+  border: 2px solid #000;
   border-radius: 50%;
   width: 70px;
   height: 70px;
@@ -1346,9 +1347,12 @@ a {
 }
 
 .portfoliosection {
+  grid-column-gap: 20vh;
+  grid-row-gap: 20vh;
   justify-content: center;
   align-items: center;
-  padding-top: 2vh;
+  padding-top: 17vh;
+  padding-bottom: 10vh;
 }
 
 .portfoliocardwrapper {
@@ -1360,9 +1364,9 @@ a {
   grid-auto-columns: 1fr;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  padding-top: 15vh;
-  padding-bottom: 10vh;
+  height: 73vh;
+  padding-top: 0;
+  padding-bottom: 0;
   display: flex;
 }
 
@@ -1405,7 +1409,7 @@ a {
   font-family: Gothic A1, sans-serif;
   font-size: 1.2vw;
   font-weight: 500;
-  line-height: 200%;
+  line-height: 150%;
 }
 
 .navybtnportfolio {
@@ -1426,6 +1430,21 @@ a {
 
 .link-block.w--current {
   margin-top: 3vh;
+}
+
+.portfoliocardwrapper-copy {
+  grid-column-gap: 5vh;
+  grid-row-gap: 5vh;
+  flex-flow: column;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  height: 73vh;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
 }
 
 @media screen and (max-width: 991px) {
@@ -1695,6 +1714,12 @@ a {
 
   .portfolio-page-para {
     font-size: 17px;
+  }
+
+  .portfoliocardwrapper-copy {
+    flex-flow: wrap;
+    height: auto;
+    padding-top: 10vh;
   }
 }
 
